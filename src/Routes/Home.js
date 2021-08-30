@@ -1,6 +1,6 @@
 import React from 'react'
 import { MainWrapper, Main, Navigation, Heading, EnterGame } from '../Components/styles/StyledMain'
-import { BodyLayer, PrimaryImage, PrimaryText, SecondaryImage, SecondaryText, MyLayer, Video } from '../Components/styles/StyledBody'
+import { BodyLayer, PrimaryImage, PrimaryText, SecondaryImage, SecondaryText, MyLayer } from '../Components/styles/StyledBody'
 import logo from '../photos/logo.png'
 import oscar from '../photos/oscar.jpg'
 import linkedin from '../photos/linkedin.svg'
@@ -11,8 +11,7 @@ import video from '../photos/tetris.mp4'
 
 const Home = () => {
     document.title = 'Welcome to Tetris';
-
-    // const video = 'https://firebasestorage.googleapis.com/v0/b/random-4f92b.appspot.com/o/My%20Movie.mov?alt=media&token=56f6fae1-5c52-4355-97a5-f9fa184f9d49';
+    
     return (
         <MainWrapper>
             <Main>
