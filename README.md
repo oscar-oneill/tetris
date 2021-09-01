@@ -1,8 +1,8 @@
 # Welcome to Tetris
 
-### View the live website <a href='https://retrotetris.vercel.app/' target='_blank' rel='noreferrer noopener'>here<a>.
+View the live website <a href='https://retrotetris.vercel.app/' target='_blank' rel='noreferrer noopener'>here<a>.
 
-### This project was created using React.js & Styled Components.
+This project was created using React.js & Styled Components.
 
 ## Developed by Oscar O'Neill
 * <a href='https://oscaroneill.xyz' target='_blank' rel='noreferrer noopener'>Portfolio</a>

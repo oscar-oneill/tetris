@@ -29,7 +29,11 @@ const Home = () => {
                 <PrimaryImage/>
                 <PrimaryText>
                     <h1>Objective</h1>
-                    In Tetris, players complete lines by moving differently shaped pieces (tetrominoes), which descend onto the playing field. The completed lines disappear and grant the player points, and the player can proceed to fill the vacated spaces. The game ends when the playing field is filled. The longer the player can delay this inevitable outcome, the higher their score will be.
+                    <span>In Tetris, players complete lines by moving differently shaped pieces (tetrominoes), which descend onto the playing field. The completed lines disappear and grant the player points, and the player can proceed to fill the vacated spaces. The game ends when the playing field is filled. The longer the player can delay this inevitable outcome, the higher their score will be.</span>
+                    <br/>
+                    <br/>
+                    <h1>Controls</h1>
+                    <span>On your keyboard, use the ← → arrows to go left & right, use the ↑ arrow to flip, use the ↓ arrow to speed the placement of the tetromino.</span>
                 </PrimaryText>
             </BodyLayer>
 
@@ -40,7 +44,7 @@ const Home = () => {
             <BodyLayer>
                 <SecondaryText>
                     <h1>Development</h1>
-                    This Tetris web application was built with React.js & Styled Components for the August 2021 Mintbean Hackathon.
+                    <span>This Tetris web application was built with React.js & Styled Components for the August 2021 Mintbean Hackathon.</span>
                     <MyLayer>
                         <img src={oscar} alt='Oscar'/>
                         <span>

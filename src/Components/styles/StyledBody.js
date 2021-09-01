@@ -36,6 +36,10 @@ export const PrimaryText = styled.div`
         letter-spacing: -1px;
     }
 
+    span {
+        font-size: 14.5px;
+    }
+
     @media screen and (max-width: 600px) {
         {
             height: 50%;
